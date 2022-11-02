@@ -1,0 +1,268 @@
+@import url("../fonts/Nunito/Nunito-VariableFont_wght.ttf");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* my-style */
+
+body{
+  background-color: #efefef !important;
+}
+.nav{
+  background-color: #1876f2 !important;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  
+}
+.logo{
+  width: 160px;
+  
+}
+/* .logo-icon{
+  width: 50px;
+} */
+ .nav-left{
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.nav-left ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+.nav-left ul li img{
+  width: 23px;
+  margin: 0 7px;
+  padding-top: 18px;
+
+}
+/* right-section */
+.nav-right{
+  padding-top: 9px;
+}
+.search-box{
+  background: #efefef;
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.search-box img{
+  width: 18px;
+  cursor: pointer;
+  
+}
+.search-box input{
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}
+.search-box :active,.search-box :focus{
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  
+}
+.nav-user-icon img{
+width: 40px;
+border-radius: 50%;
+cursor: pointer;
+}
+.online-active{
+  position: relative;
+}
+.online-active::after{
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 1px solid #fff;
+  background: #41db51;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* hero-section */
+.left-sidebar{
+  
+  flex-basis: 25%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+   
+}
+.main-content{
+  flex-basis: 47%;
+
+}
+
+.imp-links a, .shortcart-links a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #626262;
+  width: fit-content;
+}
+.imp-links a img{
+  width: 25px;
+  margin-right: 15px;
+}
+.imp-links a:last-child{
+  color: #1876f2;
+}
+.imp-links{
+  border-bottom: 1px solid gray;
+}
+
+.shortcart-links p{
+  color: #626262;
+  margin: 25px 0;
+  font-weight: 500;
+}
+.shortcart-links a img{
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 15px;
+  
+}
+
+/* right-sidebar */
+.right-sidebar{
+  flex-basis: 25%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+  padding: 20px;
+  color: #626262;
+  background: #fff;
+  border-radius: 4px;
+   
+}
+.sidebar-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.sidebar-title h6{
+  font-weight: 600;
+  font-size: 16px;
+}
+.sidebar-title a{
+  text-decoration: none;
+  color: #1876f2;
+  font-size: small;
+}
+
+/* event */
+.event{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.left-event{
+  border-radius: 10px;
+  height: 65px;
+  width: 65px;
+  padding-top: 10px;
+  margin-right: 15px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.event p{
+  font-size: 12px;
+}
+.event a{
+  font-size: 12px;
+  text-decoration: none;
+  color: #1876f2;
+}
+.left-event span{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1876f2;
+  font-size: 10px;
+  padding: 4px 0;
+  color: #fff;
+}
+
+#img{
+  width: 100% !important;
+  margin-bottom: 20px !important;
+  border-radius: 4px !important;
+  
+
+}
+.online-active-list{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.online-active-list .online-active img{
+  width: 40px;
+  border-radius: 50%;
+}
+.online-active-list .online-active{
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.online-active-list .online-active::after{
+  top: unset;
+  bottom: 5px;
+}
+.see-all:hover{
+  border-bottom: 1px solid #eee;
+  transition: 0.3s ease-in;
+}
+
+
+
+/* main-section */
+.story-gallery{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.story{
+  flex-basis: 18%;
+  padding-top: 32%;
+  position: relative;
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url("../images/profile.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.story img{
+  position: absolute;
+  width: 55px;
+  border-radius: 50%;
+  top: 2px;
+  left: 1px;
+  border-radius: 5px solid #626266;
+  cursor: pointer;
+}
+.story img:active,
+.story img:hover
+{
+  transform: scale(1.1);
+}
+.story p{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 14px;
+}
