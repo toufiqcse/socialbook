@@ -518,3 +518,29 @@ margin-right: 10px;
   padding-left: 23px;
   
 }
+
+/* responsive */
+@media (min-width: 200px) and (max-width: 500px){
+  .left-sidebar{
+    display: none !important;
+  }
+  .right-sidebar{
+    display: none !important;
+  }
+  .main-content{
+    max-width: 50%;
+  }
+  .search-box{
+    display: none;
+  }
+  .nav-user-icon{
+    position: absolute;
+    left: 347px;
+    top: 11px;
+  }
+  .settings-menu{
+    position: absolute;
+    
+    /* left: calc(100% - 20px); */
+  }
+}
