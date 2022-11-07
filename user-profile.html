@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="shortcut icon" href="assests/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/my-style.css">
+    <script src="https://kit.fontawesome.com/132edc28a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- navbar -->
+<nav>
+    <div class="nav-left ">
+       <a href="index.html"> <img src="assests/images/logo.png" alt="" class="logo"></a>
+        <!-- responsive-logo -->
+        <img src="assests/images/fb-logo.png" alt="" class="logo-small">
+
+               <!-- others icon list -->
+            <ul>
+                <li><img src="assests/images/inbox-logo.png" alt="" class="logo-icon"></li>
+                <li><img src="assests/images/notification.png" alt="" class="logo-icon"></li>
+                <li><img src="assests/images/video-logo.png" alt="" class="logo-icon"></li>
+           </ul>
+    </div>
+   
+    <div class="nav-right ">
+        <div class="search-box">
+            <img src="assests/images/search-icon-png-5.png" alt="" class="pt-1">
+            <input type="search" name="" id="" placeholder="Search">
+        </div>
+        <div class="nav-user-icon mx-2 online-active" onclick="settingsMenuToggle()">
+            <img src="assests/images/profile.jpg" alt="">
+        </div>
+    </div>
+        <!-- settings-menu -->
+    <div class="settings-menu">
+
+        <div class="" id="dark-btn">
+             <span></span>
+        </div>
+
+        <div class="menu-settings-inner">
+            <div class="user-profile">
+                <img src="assests/images/profile.jpg" alt="">
+                    <div>
+                        <p>Toufiqul Islam</p>
+                        <a href="#">See your Profile</a>
+                    </div>
+            </div>
+
+            <hr>
+            <div class="user-profile">
+                <img src="assests/images/feedback-icon.png" alt="">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve new design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="settings-links">                         
+                <img src="assests/images/settings-icon.png" alt="" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="assests/images/right-arrow.png" alt="" width="10px"></a>
+            </div>
+                <div class="settings-links">                         
+                    <img src="assests/images/help-icon.png" alt="" class="settings-icon">
+                    <a href="#">Help & Support <img src="assests/images/right-arrow.png" alt="" width="10px"></a>
+                </div>
+            <div class="settings-links">                         
+                <img src="assests/images/display.png" alt="" class="settings-icon">
+                <a href="#">Display & Accessibility <img src="assests/images/right-arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="settings-links">                         
+                <img src="assests/images/logout.png" alt="" class="settings-icon">
+                <a href="#">Logout  <img src="assests/images/right-arrow.png" alt="" width="10px"></a>
+            </div>
+        </div>
+    </div>       
+</nav>
+<!-- =================navbar-end========================== -->
+
+
+<!-- =================Hero section start================== -->
+<!-- profile_section -->
+<div class="profile-container">
+    <img src="assests/images/profile/cover-img.jpg" alt="" class="cover-img">
+    <div class="profile-details">
+        <div class="profile-details-left">
+            <div class="profile-details-row">
+                <img src="assests/images/profile.jpg" alt="">
+                <div class="profile-text">
+                    <h3>Toufiqul Islam</h3>
+                    <p>20 Freinds -5 mutual </p>
+                    <img src="assests/images/member/member-1.jpg" alt="">
+                    <img src="assests/images/member/member-5.jpg" alt="">
+                    <img src="assests/images/member/member-3.jpg" alt="">
+                    <img src="assests/images/member/member-4.jpg" alt="">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="profile-details-right">
+            <button type="button" class="btn"> <img src="assests/images/add-freinnd.png" alt=""> Friend</button>
+            <button type="button" class="btn"> <img src="assests/images/inbox-logo.png" alt=""> Message</button>
+            <br>
+            <a href="#"> <img src="assests/images/3 dot more.png" alt=""> </a>
+            
+        </div>
+    </div>
+    <!-- profile info -->
+    <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Belive in yourself and you can unbelivable things. <img src="assests/images/feeling.png" alt="" >  </p>
+                <hr>
+                <ul class="biography">
+                    <li> <img src="assests/images/profile-job.png" alt=""> Dirctor and 99 media Ltd</li>
+                    <li> <img src="assests/images/study.png" alt=""> Studied at Stamford University</li>
+                    <li> <img src="assests/images/study.png" alt=""> Wents to Pakistan</li>
+                    <li> <img src="assests/images/home-logo.png" alt=""> Lives in Singapure</li>
+                    <li> <img src="assests/images/location.png" alt=""> From Bangladesh</li>
+                </ul>
+            </div>
+
+            <!-- ------------For Photos-------------- -->
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                </div>
+                
+                <div class="photo-box">
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (1).jpg" alt=""></div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (8).jpg" alt=""></div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (3).jpg" alt=""></div>
+                    <div> <img class="up-photos" src="assests/images/profile/profile-uploads (4).jpg" alt=""></div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (5).jpg" alt=""></div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (6).jpg" alt=""></div>
+                </div>
+            </div>
+
+             <!-- ------------For Friends-------------- -->
+             <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                </div>
+                <p>120 ( 20 mutual )</p>
+                <div class="friends-box">
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (1).jpg" alt=""> <p>Abir Khan</p> </div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (8).jpg" alt=""> <p>Mitu Akter</p> </div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (3).jpg" alt=""> <p>Jansi</p> </div>
+                    <div> <img class="up-photos" src="assests/images/profile/profile-uploads (4).jpg" alt=""> <p>Manu</p> </div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (5).jpg" alt=""> <p>Akash</p> </div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (6).jpg" alt=""> <p>Aliza</p> </div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (5).jpg" alt=""> <p>Ray</p> </div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (1).jpg" alt=""> <p>Saimon</p> </div>
+                    <div><img class="up-photos" src="assests/images/profile/profile-uploads (3).jpg" alt=""> <p>Thom</p> </div>
+                    
+                    
+                    
+                   
+                    
+                    
+                </div>
+            </div>
+
+             
+        </div>
+
+        <div class="post-col">
+            <div class="write-post-container ">
+                <div class="user-profile">
+                    <img src="assests/images/profile.jpg" alt="">
+                    <div>
+                        <p>Toufiqul Islam</p>
+                        <small>Public  <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind?"></textarea>
+                    <div class="add-post-links d-flex">
+                        <a href="#" ><img src="assests/images/live-videop.png" alt=""> Live</a>
+                        <a href="#"><img src="assests/images/camera----logo.png" alt=""> Photo</a>
+                        <a href="#"> <img src="assests/images/feelings-logo.png" alt="">Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container mt-3">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="assests/images/profile.jpg" alt="">
+                        <div>
+                            <p>Toufiqul Islam</p>
+                            <span>June 24 2022 13:00</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                
+
+                    <p class="post-text">
+                        ক্যারিয়ার শুরু করা মানেই কিন্তু শেখার যাত্রার শেষ নয়। বরং আপনার সামনে অপেক্ষা করছে প্রফেশনাল লাইফের নতুন সমস্যাগুলো মোকাবিলা করার বিশাল চ্যালেঞ্জ!!! 
+                        ✅ পারফেক্ট CV/Resume - আপনার CV/Resume সবসময় আপনার কারেন্ট প্রোফাইলের সাথে মিলিয়ে আপডেটেড রাখুন।
+                        ইমপ্রুভমেন্ট লক্ষ করবেন। 
+                        <a href="#">Toufiq Hasan</a>  <a href="#">#youube channel</a> 
+                    </p>
+                <img src="assests/images/307786937_23851680974950003_7805111833622448143_n.jpg" alt="" class="post-img">
+
+                <div class="post-row  ">
+                    <div class="activity-icons   ">
+                        <div class=""><img src="assests/images/like-logo.png" alt=""> 120</div>
+
+                        <div class=""><img src="assests/images/feelings-logo.png" alt=""> 45</div>
+
+                        <div class=""><img src="assests/images/share.png" alt=""> 20</div>
+                    </div>
+
+
+                    <div class="post-profile-icons ">
+                        <img src="assests/images/profile.jpg" alt=""> <i class="fas fa-caret-down mx-1"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container mt-3">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="assests/images/profile.jpg" alt="">
+                        <div>
+                            <p>Toufiqul Islam</p>
+                            <span>June 24 2022 13:00</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                
+
+                    <p class="post-text">
+                        Get professional experience as a software developer with IT companies across the US while earning your MS in Computer Science. You must have a computer science degree or related subject to apply.🌸
+                        <a href="#">Toufiq Hasan</a>  <a href="#">#youube channel</a> 
+                    </p>
+                <img src="assests/images/285809721_23851538040760344_6595495594744658331_n.jpg " class="post-img">
+
+                <div class="post-row  ">
+                    <div class="activity-icons   ">
+                        <div class=""><img src="assests/images/like-logo.png" alt=""> 12K</div>
+
+                        <div class=""><img src="assests/images/feelings-logo.png" alt=""> 3.1K</div>
+
+                        <div class=""><img src="assests/images/share.png" alt=""> 200</div>
+                    </div>
+
+
+                    <div class="post-profile-icons ">
+                        <img src="assests/images/profile.jpg" alt=""> <i class="fas fa-caret-down mx-1"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container mt-3">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="assests/images/profile.jpg" alt="">
+                        <div>
+                            <p>Toufiqul Islam</p>
+                            <span>June 24 2022 13:00</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                
+
+                    <p class="post-text">
+                        Want to become a 10x developer? 🚀
+                        Get hands-on coding experience on SkillReactor to improve your problem solving skills through guided self-study & research and become a 10x developer!😎
+                        <a href="#">Toufiq Hasan</a>  <a href="#">#youube channel</a> 
+                    </p>
+                <img src="assests/images/308513889_23852328647700537_3845659786254627789_n.jpg" alt="" class="post-img">
+
+                <div class="post-row  ">
+                    <div class="activity-icons   ">
+                        <div class=""><img src="assests/images/like-logo.png" alt=""> 4.3k</div>
+
+                        <div class=""><img src="assests/images/feelings-logo.png" alt=""> 450</div>
+
+                        <div class=""><img src="assests/images/share.png" alt=""> 1.4m</div>
+                    </div>
+
+
+                    <div class="post-profile-icons ">
+                        <img src="assests/images/profile.jpg" alt=""> <i class="fas fa-caret-down mx-1"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container mt-3">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="assests/images/profile.jpg" alt="">
+                        <div>
+                            <p>Toufiqul Islam</p>
+                            <span>June 24 2022 13:00</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                
+
+                    <p class="post-text">
+                        In this topic, we will review how to add a network speed indicator to the taskbar on any Windows computer, in very easy and simple ways.
+                        <a href="#">Just click here to Download:</a>  <a href="#">#https://l.php?u=https%3A</a> 
+                    </p>
+                <img src="assests/images/313315553_646096973729930_6395310433489232687_n.jpg" alt="" class="post-img">
+
+                <div class="post-row  ">
+                    <div class="activity-icons   ">
+                        <div class=""><img src="assests/images/like-logo.png" alt=""> 100</div>
+
+                        <div class=""><img src="assests/images/feelings-logo.png" alt=""> 10</div>
+
+                        <div class=""><img src="assests/images/share.png" alt="">90</div>
+                    </div>
+
+
+                    <div class="post-profile-icons ">
+                        <img src="assests/images/profile.jpg" alt=""> <i class="fas fa-caret-down mx-1"></i>
+                    </div>
+                </div>
+
+            </div>
+      
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =================Hero section End================== -->
+
+
+
+<!-- =================fotter section start================== -->
+
+<!-- =================fotter section End================== -->
+
+
+    
+    <script src="assests/js/main.js"></script>
+    <script src="assests/js/my-script.js"></script>
+</body>
+</html>
