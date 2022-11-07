@@ -557,7 +557,9 @@ margin-right: 10px;
   flex-grow: 2;
   
 }
-
+footer p{
+  font-size: 16px;
+}
 .footer div h3{
   font-weight: 300;
   margin-bottom: 30px;
